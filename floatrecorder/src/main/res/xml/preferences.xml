@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="应用安全监控">
+        <Preference
+            android:key="selfTest"
+            android:summary="点击以运行工具自检"
+            android:title="工具自检"/>
+        <SwitchPreference
+            android:key="personalInformation"
+            android:title="个人信息"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="sensitiveInformation"
+            android:title="敏感信息"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="privacyStandard"
+            android:title="隐私规范"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="safetyCode"
+            android:title="安全编码"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="应用异常监控">
+        <SwitchPreference
+            android:key="requestErrorTest"
+            android:title="请求异常检测"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="memoryLeakTest"
+            android:title="内存泄漏检测"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="strictMode"
+            android:title="严格模式"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="测试工具包">
+        <EditTextPreference
+            android:dialogTitle="新的版本号:"
+            android:key="modifyVersionCode"
+            android:summary="输入新的版本号"
+            android:title="修改版本号" />
+        <Preference
+            android:key="switchLocation"
+            android:summary="输入区域名称"
+            android:title="切换区域"
+            />
+        <!--com.android.floatball.recorderball.TestPreference
+            android:key="testpreference"
+            android:summary="try input 3 values"
+            android:dialogTitle="this is a test"
+            android:title="3 buttons?"
+            /-->
+        <Preference
+            android:key="floatRecorder"
+            android:summary="点击跳转运营拨测"
+            android:title="运营拨测"/>
+        <SwitchPreference
+            android:key="simulateCDMAPhone"
+            android:title="模拟移动定制机"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:key="contentIDPrefix"
+            android:title="内容前缀加ID"
+            android:summary="默认为开启"
+            android:defaultValue="true"/>
+        <Preference
+            android:key="overseasSongDecrypt"
+            android:summary="点击以运行歌曲解密"
+            android:title="海外歌曲解密工具"/>
+        <Preference
+            android:key="multiLanguageTest"
+            android:summary="点击以运行多语言测试"
+            android:title="多语言测试工具"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="系统设置">
+        <Preference
+            android:key="viewSettings"
+            android:summary="点击以查看系统设置"
+            android:title="查看设置"/>
+        <Preference
+            android:key="restoreSettings"
+            android:summary="点击以恢复系统设置"
+            android:title="恢复设置"/>
+        <Preference
+            android:key="exportSettings"
+            android:summary="点击以导出系统设置"
+            android:title="导出设置"/>
+    </PreferenceCategory>
+</PreferenceScreen>

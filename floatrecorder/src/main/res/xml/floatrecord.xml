@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="运营拨测">
+        <Preference
+            android:key="startRecord"
+            android:summary="开始拨测"
+            android:title="start"/>
+        <Preference
+            android:key="stopRecord"
+            android:summary="停止拨测"
+            android:title="stop"/>
+        <Preference
+            android:key="print"
+            android:summary="列出拨测结果"
+            android:title="print"/>
+    </PreferenceCategory>
+</PreferenceScreen>

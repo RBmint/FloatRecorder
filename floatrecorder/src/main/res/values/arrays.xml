@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="citys">
+        <item>成都</item>
+        <item>北京</item>
+        <item>上海</item>
+    </string-array>
+
+    <string-array name="citys_code">
+        <item>028</item>
+        <item>010</item>
+        <item>021</item>
+    </string-array>
+</resources>
