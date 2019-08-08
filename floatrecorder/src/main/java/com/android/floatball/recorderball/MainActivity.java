@@ -323,7 +323,6 @@ public class MainActivity extends Activity {
     }
 
     /*
-     *
      * Zips a file at a location and places the resulting zip file at the toLocation
      * Example: zipFileAtPath("downloads/myfolder", "downloads/myFolder.zip");
      */
